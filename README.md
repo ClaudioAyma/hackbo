@@ -1,8 +1,14 @@
 # prodem
-
 #instalacion
-->de npm install
-->npm install sw-precache-webpack-plugin --save-dev
 
-correr
-->npm run pwa
+Prodem PWA
+==========
+
+Instalación
+-----------
+
+*npm install sw-precache-webpack-plugin --save-dev
+
+Compilar
+--------
+*npm run pwa
