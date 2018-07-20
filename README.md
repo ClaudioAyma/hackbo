@@ -1,10 +1,7 @@
-# prodem
-#instalacion
-
 Prodem PWA
 ==========
 
-InstalaciÃ³n
+Instalación
 -----------
 
 *npm install sw-precache-webpack-plugin --save-dev
