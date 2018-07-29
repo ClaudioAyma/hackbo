@@ -23,7 +23,6 @@ import { ClarityModule } from '@clr/angular'
     AngularFireStorageModule,
     ClarityModule
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
