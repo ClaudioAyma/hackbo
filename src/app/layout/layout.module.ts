@@ -6,12 +6,13 @@ import { LayoutComponent } from './layout/layout.component';
 import { MainHeaderComponent } from './main-header/main-header.component';
 import { MainContentComponent } from './main-content/main-content.component';
 import { MainFooterComponent } from './main-footer/main-footer.component';
+import { MainContentTwoComponent } from './main-content-two/main-content-two.component';
 
 @NgModule({
   imports: [
     CommonModule,
     LayoutRoutingModule
   ],
-  declarations: [LayoutComponent, MainHeaderComponent, MainContentComponent, MainFooterComponent]
+  declarations: [LayoutComponent, MainHeaderComponent, MainContentComponent, MainFooterComponent, MainContentTwoComponent]
 })
 export class LayoutModule { }

@@ -5,11 +5,11 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { AngularFireModule } from 'angularfire2'
-import { AngularFirestoreModule } from 'angularfire2/firestore'
-import { AngularFireStorageModule  } from 'angularfire2/storage'
+import { AngularFireModule } from 'angularfire2';
+import { AngularFirestoreModule } from 'angularfire2/firestore';
+import { AngularFireStorageModule  } from 'angularfire2/storage';
 
-import { ClarityModule } from '@clr/angular'
+import { ClarityModule } from '@clr/angular';
 
 @NgModule({
   declarations: [
@@ -21,7 +21,7 @@ import { ClarityModule } from '@clr/angular'
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
     AngularFireStorageModule,
-    ClarityModule
+    ClarityModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
