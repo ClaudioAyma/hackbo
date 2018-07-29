@@ -1,4 +1,4 @@
-<!--The content below is only a placeholder and can be replaced.-->
+
 <header class="header-6">
   <div class="branding">
       ...
@@ -13,10 +13,15 @@
       </a>
   </div>
 </header>
+
 <ul>
   <li class="text" *ngFor="let item of items | async">
     {{ item.name }}
   </li>
-</ul>
+</ul> 
+
+<input (change)="captureValue($event)" id="credit-file" type="file" >
+
+<button (click)="upload()" class="btn btn-primary">Primary</button>
 
 <router-outlet></router-outlet>
