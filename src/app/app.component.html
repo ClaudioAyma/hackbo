@@ -1,10 +1,24 @@
-<!--The content below is only a placeholder and can be replaced.-->
+
+<header class="header-6">
+  <div class="branding">
+      ...
+  </div>
+  <div class="header-nav">
+      <a href="javascript://" class="active nav-link nav-text">Dashboard</a>
+      <a href="javascript://" class="nav-link nav-text">Interactive Analytics</a>
+  </div>
+  <div class="header-actions">
+      <a href="javascript://" class="nav-link nav-icon">
+          <clr-icon shape="cog"></clr-icon>
+      </a>
+  </div>
+</header>
 
 <ul>
   <li class="text" *ngFor="let item of items | async">
     {{ item.name }}
   </li>
-</ul>
+</ul> 
 
 <input (change)="captureValue($event)" id="credit-file" type="file" >
 
